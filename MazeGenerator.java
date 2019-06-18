@@ -10,7 +10,7 @@ public class MazeGenerator extends JFrame{
 	}
 	
 	private void initUI() {
-		add(new MazeBoard());//entry point of game
+		add(new MazeSolver());//entry point of game
 		setResizable(false);
 		
 		pack();//puts the board in center of JFrame container
